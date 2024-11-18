@@ -1,0 +1,8 @@
+Step 1
+npm install npx playwright install
+
+Step 2
+npx playwright test tests/example.spec.js --project=chromium --headed
+
+Step 3 - Passing Parameters
+npx playwright test tests/%SpecFile% --project=%Browser% --headed
